@@ -11,3 +11,257 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body, #root, .App {
+  height: 100%;
+  padding: 0;
+}
+
+.header {
+    font-size: 32px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: #353535;
+}
+
+.FilterArea {
+    position: fixed;
+    top: 100px;
+    width: 25%;
+    height: 100%;
+    background-color: #353535;
+}
+.SearchName {
+    width: 100%;
+    text-align: center;
+}
+.FilterType {
+    color: white;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+}
+.FilterType > label {
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 6px;
+    width: 100%;
+    float: left;
+}
+
+.FilterWeakness {
+    color: white;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+}
+.FilterWeakness > label {
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 6px;
+    width: 100%;
+    float: left;
+}
+
+.ListArea {
+    float: left;
+    width: 75%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.PokemonListItem {
+    float: left;
+    width: 21%;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    background-color: lightgrey;
+    font-family: "Flexo-Demi",arial,sans-serif;
+}
+.number {
+    text-align: left;
+    margin-left: 16px;
+    font-size: 12px;
+    color: #2c2cff;
+}
+
+.pokemonTypes > span {
+    font-size: 12px;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.pokemonWeaknesses {
+    font-size: 10px;
+    margin: 5px;
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+.weaknessLabel {
+    padding: 5px;
+}
+.pokemonWeaknesses > span {
+    font-size: 10px;
+    padding: 3px 3px;
+    border-radius: 5px;
+    margin: 3px 5px;
+}
+
+.DetailArea {
+    position: fixed;
+    width: 75%;
+    height: 100%;
+    margin-left: 25%;
+    margin-top: 100px;
+    background-color: white;
+}
+.goBack {
+    text-align: center;
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 75px;
+    background-color: lightgrey;
+}
+.detailName {
+    font-size: 42px;
+    text-align: center;
+}
+.detailNumber {
+    color: grey;
+}
+.detailContainer {
+    display: flex;
+}
+.detailImgContainer {
+    flex: 1;
+    margin: 1%;
+    text-align: center;
+}
+.details {
+    flex: 1;
+    margin: 1%;
+    padding: 20px;
+}
+.detailImg {
+    width: 50%;
+}
+.detailType {
+    text-align: left;
+    margin-left: 20px;
+    width: 45%;
+}
+.detailType > span {
+    font-size: 16px;
+    padding: 5px 35px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.detailTypeLabel {
+    font-size: 20px;
+    margin: 10px;
+}
+.evolutionContainer {
+    display: flex;
+}
+.evolution {
+    flex: 1;
+    margin: 1%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: #40d0ff;
+}
+.detailLabel {
+    margin: 2%;
+}
+.detailEvolution {
+    margin: 2%;
+    float: left;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+
+.Grass {
+    color: black;
+    background-color: #9bcc50;
+}
+.Poison {
+    color: white;
+    background-color: #b97fc9
+}
+.Fire {
+    color: white;
+    background-color: #fd7d24
+}
+.Flying {
+    color: black;
+    background: linear-gradient(180deg, #3dc7ef 50%, #bdb9b8 50%);
+}
+.Water {
+    color: white;
+    background: linear-gradient(180deg, #4592c4 50%, #4592c4 50%);
+}
+.Bug {
+    color: black;
+    background: linear-gradient(180deg, #729f3f 50%, #729f3f 50%);
+}
+.Normal {
+    color: black;
+    background-color: #a4acaf;
+}
+.Electric {
+    color: black;
+    background-color: #eed535;
+}
+.Ground {
+    color: black;
+    background: linear-gradient(180deg, #f7de3f 50%, #ab9842 50%);
+}
+.Fairy {
+    color: black;
+    background-color: #fdb9e9;
+}
+.Fighting {
+    color: white;
+    background-color: #d56723;
+}
+.Psychic {
+    color: white;
+    background-color: #f366b9;
+}
+.Rock {
+    color: white;
+    background-color: #a38c21;
+}
+.Steel {
+    color: black;
+    background-color: #9eb7b8;
+}
+.Ice {
+    color: black;
+    background-color: #51c4e7;
+}
+.Ghost {
+    color: white;
+    background-color: #7b62a3;
+}
+.Dark {
+    color: white;
+    background-color: #707070;
+}
+.Dragon {
+    color: white;
+    background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
+}
