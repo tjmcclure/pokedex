@@ -12,6 +12,8 @@ function WeaknessFilter({ weaknessFilter, setWeaknessFilter, types }) {
         }
     }
 
+
+
   return (
             <div className="FilterWeakness">
                 Filter Weakness: <br/>
